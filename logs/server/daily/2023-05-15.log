@@ -1,0 +1,46 @@
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-15T04:15:25.602Z"}
+info: Connected to the database. {"timestamp":"2023-05-15T04:15:25.626Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-15T05:58:04.846Z"}
+info: Connected to the database. {"timestamp":"2023-05-15T05:58:04.873Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-15T06:03:23.902Z"}
+info: Connected to the database. {"timestamp":"2023-05-15T06:03:23.941Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-15T06:06:29.362Z"}
+info: Connected to the database. {"timestamp":"2023-05-15T06:06:29.383Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-15T06:09:07.446Z"}
+info: Connected to the database. {"timestamp":"2023-05-15T06:09:07.469Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-15T06:11:15.106Z"}
+info: Connected to the database. {"timestamp":"2023-05-15T06:11:15.127Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-15T06:22:47.368Z"}
+info: Connected to the database. {"timestamp":"2023-05-15T06:22:47.387Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-15T07:09:07.873Z"}
+info: Connected to the database. {"timestamp":"2023-05-15T07:09:07.899Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-15T07:28:44.468Z"}
+info: Connected to the database. {"timestamp":"2023-05-15T07:28:44.490Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:29:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-15T07:30:50.497Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-15T09:15:13.939Z"}
+error: Could not connect to the database. bad auth : authentication failed {"code":8000,"codeName":"AtlasError","name":"MongoError","ok":0,"stack":"MongoError: bad auth : authentication failed\n    at MessageStream.messageHandler (D:\\Project\\Backend\\node_modules\\mongodb\\lib\\cmap\\connection.js:299:20)\n    at MessageStream.emit (node:events:513:28)\n    at MessageStream.emit (node:domain:489:12)\n    at processIncomingData (D:\\Project\\Backend\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n    at MessageStream._write (D:\\Project\\Backend\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at MessageStream.Writable.write (node:internal/streams/writable:337:10)\n    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n    at TLSSocket.emit (node:events:513:28)\n    at TLSSocket.emit (node:domain:489:12)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at TLSSocket.Readable.push (node:internal/streams/readable:234:10)\n    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)","timestamp":"2023-05-15T09:15:18.577Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-15T09:15:59.313Z"}
+error: Could not connect to the database. bad auth : authentication failed {"code":8000,"codeName":"AtlasError","name":"MongoError","ok":0,"stack":"MongoError: bad auth : authentication failed\n    at MessageStream.messageHandler (D:\\Project\\Backend\\node_modules\\mongodb\\lib\\cmap\\connection.js:299:20)\n    at MessageStream.emit (node:events:513:28)\n    at MessageStream.emit (node:domain:489:12)\n    at processIncomingData (D:\\Project\\Backend\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n    at MessageStream._write (D:\\Project\\Backend\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at MessageStream.Writable.write (node:internal/streams/writable:337:10)\n    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n    at TLSSocket.emit (node:events:513:28)\n    at TLSSocket.emit (node:domain:489:12)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at TLSSocket.Readable.push (node:internal/streams/readable:234:10)\n    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)","timestamp":"2023-05-15T09:16:01.262Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-15T09:20:20.665Z"}
+error: Could not connect to the database. bad auth : authentication failed {"code":8000,"codeName":"AtlasError","name":"MongoError","ok":0,"stack":"MongoError: bad auth : authentication failed\n    at MessageStream.messageHandler (D:\\Project\\Backend\\node_modules\\mongodb\\lib\\cmap\\connection.js:299:20)\n    at MessageStream.emit (node:events:513:28)\n    at MessageStream.emit (node:domain:489:12)\n    at processIncomingData (D:\\Project\\Backend\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n    at MessageStream._write (D:\\Project\\Backend\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at MessageStream.Writable.write (node:internal/streams/writable:337:10)\n    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n    at TLSSocket.emit (node:events:513:28)\n    at TLSSocket.emit (node:domain:489:12)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at TLSSocket.Readable.push (node:internal/streams/readable:234:10)\n    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)","timestamp":"2023-05-15T09:20:25.417Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-15T09:22:49.841Z"}
+error: Could not connect to the database. connection 1 to 3.214.24.146:27017 closed {"name":"MongoNetworkError","stack":"MongoNetworkError: connection 1 to 3.214.24.146:27017 closed\n    at Connection.handleIssue (D:\\Project\\Backend\\node_modules\\mongodb\\lib\\cmap\\connection.js:131:15)\n    at TLSSocket.<anonymous> (D:\\Project\\Backend\\node_modules\\mongodb\\lib\\cmap\\connection.js:64:35)\n    at TLSSocket.emit (node:events:513:28)\n    at TLSSocket.emit (node:domain:489:12)\n    at node:net:322:12\n    at TCP.done (node:_tls_wrap:588:7)","timestamp":"2023-05-15T09:22:52.602Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-15T09:30:24.351Z"}
+info: Connected to the database. {"timestamp":"2023-05-15T09:30:26.651Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-15T09:31:39.514Z"}
+info: Connected to the database. {"timestamp":"2023-05-15T09:31:41.758Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-15T16:50:19.344Z"}
+info: Connected to the database. {"timestamp":"2023-05-15T16:50:22.435Z"}

@@ -1,0 +1,174 @@
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-16T04:25:36.863Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T04:25:40.217Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-05-16T05:21:07.464Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T05:21:09.704Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T06:06:48.454Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T06:08:39.331Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T06:08:41.588Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T07:26:52.620Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T07:26:55.003Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T07:27:54.254Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T07:27:56.490Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T07:29:50.875Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T07:29:53.092Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T07:30:07.861Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T07:30:10.047Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T07:30:36.830Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T07:30:39.034Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T07:30:49.380Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T07:30:51.657Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.register is not a function
+    at _callee3$ (D:\Project\Backend\src\controllers\/user.controller.js:34:36)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at register (D:\Project\Backend\src\controllers\/user.controller.js:32:22)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (D:\Project\Backend\src\validators\/user.validator.js:14:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Project\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Project\Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Project\Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Project\Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Project\Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Project\Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-16T07:30:57.805Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T07:33:11.212Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T07:33:13.464Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T07:35:09.863Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T07:35:13.095Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T07:36:59.185Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T07:37:01.498Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T08:39:11.446Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T08:39:13.989Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T08:39:34.449Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T08:39:36.672Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:29:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-16T08:39:55.190Z"}
+error: 
+    status - 500 
+    message - ReferenceError: password is not defined
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:21:48)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-16T08:40:32.551Z"}
+error: 
+    status - 500 
+    message - ReferenceError: password is not defined
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:21:48)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-16T08:40:56.602Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T08:41:47.866Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T08:41:55.372Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:28:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-16T08:42:16.976Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T08:42:45.232Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T08:42:47.432Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T08:44:00.679Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T08:44:06.992Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T08:45:11.094Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T08:45:29.715Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T09:05:56.703Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T09:05:59.008Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T10:55:58.567Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T10:56:00.814Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:34:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-16T10:57:48.979Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T10:59:12.597Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T10:59:14.863Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-16T11:08:52.703Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T11:08:54.938Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T12:09:11.536Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-05-16T12:46:02.281Z"}
+info: Connected to the database. {"timestamp":"2023-05-16T12:46:04.579Z"}

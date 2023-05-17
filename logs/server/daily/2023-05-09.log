@@ -1,0 +1,1219 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-09T04:47:10.946Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T04:47:13.351Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-09T04:57:06.329Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T04:57:08.590Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullName" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T05:06:55.906Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T05:07:39.004Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T05:07:55.128Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\Project\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:32:31)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T05:08:29.547Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-09T05:09:46.281Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T05:09:48.697Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-09T05:12:44.821Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T05:12:44.841Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Project\Backend\src\middlewares\/auth.middleware.js:14:23)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Project\Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Project\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Project\Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Project\Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Project\Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Project\Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Project\Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/post/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T05:14:53.358Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/post/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-05-09T05:15:10.297Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Title" is required 
+    url - /api/v1/post/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T05:15:48.523Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Description" is required 
+    url - /api/v1/post/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T05:16:32.155Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-09T05:21:56.819Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T05:21:56.837Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-09T05:45:06.492Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T05:45:06.518Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-09T05:49:09.930Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T05:49:09.947Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-09T05:50:12.325Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T05:50:12.344Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (D:\Project\Backend\src\utils\/user.util.js:17:15)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkEmail (D:\Project\Backend\src\utils\/user.util.js:5:24)
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:20:22)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T05:51:16.089Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Project\Backend\src\middlewares\/auth.middleware.js:14:23)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Project\Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Project\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Project\Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Project\Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Project\Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Project\Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Project\Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/post 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T05:54:17.864Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Project\Backend\src\middlewares\/auth.middleware.js:14:23)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Project\Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Project\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Project\Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Project\Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Project\Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Project\Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Project\Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/post 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T05:54:25.771Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-09T06:03:12.147Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T06:03:12.164Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T06:06:20.793Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2023-05-09T06:07:10.684Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T06:07:10.700Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Project\Backend\src\middlewares\/auth.middleware.js:14:23)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Project\Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Project\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Project\Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Project\Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Project\Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Project\Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Project\Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/post 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:13:13.008Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Project\Backend\src\middlewares\/auth.middleware.js:14:23)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Project\Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Project\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Project\Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Project\Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Project\Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Project\Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Project\Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/post 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:13:30.901Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullName" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:15:20.606Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Project\Backend\src\middlewares\/auth.middleware.js:14:23)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Project\Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Project\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Project\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Project\Backend\node_modules\express\lib\router\index.js:376:14)
+    at param (D:\Project\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Project\Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Project\Backend\node_modules\body-parser\lib\types\json.js:119:7)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Project\Backend\node_modules\body-parser\lib\types\urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\Project\Backend\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\Project\Backend\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\Project\Backend\node_modules\helmet\dist\index.js:145:6) 
+    url - /api/v1/post/6459e546cb56f23124e6aee9/like/mreddypm@gmail.com 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:17:45.322Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2023-05-09T06:21:04.589Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T06:21:04.606Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2023-05-09T06:22:20.541Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T06:22:20.556Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Title" is required 
+    url - /api/v1/post/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:22:44.977Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Description" is required 
+    url - /api/v1/post/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:23:02.636Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:23:39.660Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:23:39.669Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:23:39.676Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:23:39.682Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:36:18.107Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:36:18.113Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:36:18.120Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:36:18.128Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2023-05-09T06:37:11.885Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T06:37:11.901Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2023-05-09T06:37:15.022Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T06:37:15.038Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2023-05-09T06:41:38.056Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T06:41:38.072Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2023-05-09T06:42:45.754Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T06:42:45.768Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:45:28.505Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:45:28.513Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:45:28.526Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:45:28.532Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:29:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:46:40.584Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2023-05-09T06:47:12.368Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T06:47:12.382Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:29:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:47:24.317Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2023-05-09T06:47:41.267Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T06:47:41.282Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:29:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:47:43.627Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2023-05-09T06:48:08.069Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T06:48:08.083Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:53:38.338Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:53:38.355Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:53:38.371Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:53:38.383Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:53:53.344Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:53:53.355Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:53:53.368Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:53:53.380Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:55:02.560Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:55:02.567Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:55:36.003Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:55:36.013Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:55:58.492Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:55:58.502Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:55:58.510Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:55:58.521Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:58:35.197Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:58:35.211Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:58:47.196Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:58:47.202Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:58:54.310Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:58:54.319Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:58:54.327Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:58:54.335Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:58:57.287Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:58:57.295Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:58:57.304Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:58:57.313Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:59:09.900Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:59:09.906Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:59:09.914Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T06:59:09.922Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T07:03:02.370Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T07:03:20.812Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T07:03:20.829Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T07:04:11.706Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T07:04:30.020Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T07:04:30.029Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-09T07:05:03.192Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:29:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T07:08:20.101Z"}
+error: 
+    status - 500 
+    message - Error: Wrong credentials
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:35:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T07:08:38.303Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Title" is required 
+    url - /api/v1/post/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T07:09:03.597Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Description" is required 
+    url - /api/v1/post/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T07:09:13.196Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/undefined/like/Reddy@gmail.com 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-05-09T08:27:17.452Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/undefined/like/mreddypm@gmail.com 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-05-09T09:22:45.754Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:29:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T09:23:46.041Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:29:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T09:27:50.339Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:29:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T09:35:18.728Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/post/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-05-09T09:43:19.774Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullName" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T09:43:27.551Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:29:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T09:43:53.380Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:29:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T09:44:19.824Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:29:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T09:44:29.287Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Title" is required 
+    url - /api/v1/post/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T09:45:14.654Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:29:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T09:47:46.198Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:29:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T09:48:34.662Z"}
