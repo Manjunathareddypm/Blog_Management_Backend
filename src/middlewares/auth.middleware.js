@@ -16,8 +16,6 @@ export const userAuth = async (req, res, next) => {
     
     console.log("User",user,"-------->>>>");
     req.body.Email = user.email
-    // req.body.email = user.email
-    // userName = user.Id
     next();
   } catch (error) {
     next(error);
