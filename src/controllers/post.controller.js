@@ -14,8 +14,7 @@ export const createPost = async (req, res, next) => {
   }
 };
 
-
-export const getAllPost = async (req, res, next) => {
+export const getAllPost = async ( req, res, next) => {
   try {
     const data = await PostService.getAllPost();
     res.status(HttpStatus.OK).json({
@@ -60,7 +59,6 @@ export const deletePost = async (req, res, next) => {
 export const likePost = async (req, res, next) => {
   try {
     const data = await PostService.likePost(req.params.id, req.params.email)
-
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
@@ -76,7 +74,6 @@ export const likePost = async (req, res, next) => {
 export const numberOfLikes = async (req, res, next) => {
   try {
     const data = await PostService.numberOfLikes(req)
-
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
@@ -118,7 +115,7 @@ export const findMyLikedPost = async (req, res, next) => {
 
 export const findMyPost = async (req, res, next) => {
   try {
-    const data = await PostService.findMyPost(req.params.email)
+    const data = await PostService.findMyPost(req.params.id)
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
@@ -184,7 +181,6 @@ export const arrangeByLikesSortLowToHigh = async (req, res, next) => {
 
 export const getAllCommentNewLogic = async (req, res, next) => {
   const data = await PostService.getAllCommentNewLogic(req.body);
-  console.log(data, "data================");
   res.status(HttpStatus.OK).json({
     data: data
   });
@@ -193,7 +189,6 @@ export const getAllCommentNewLogic = async (req, res, next) => {
 
 export const oneMoreLogic = async (req, res, next) => {
   const data = await PostService.oneMoreLogic(req.params.id, req.params.Author, req.body);
-  console.log(data, "data================1");
   res.status(HttpStatus.OK).json({
     data: data
   });
@@ -245,7 +240,7 @@ export const deleteComment = async (req, res, next) => {
 
 export const senMailForComment = async (req, res, next) => {
   try {
-    const data = await PostService.sendEmailFromComment(req.params.authorEmail, req.body.Comment, req.params.commentAuthor)
+    const data = await PostService.sendEmailFromComment(req.params.authorEmail, req.body.Comment, req.params.commentAuthor, req.params.Title)
     res.status(HttpStatus.OK).json({
       code: HttpStatus.CREATED,
       data: data,

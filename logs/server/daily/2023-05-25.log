@@ -1,0 +1,281 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-25T07:39:25.077Z"}
+info: Connected to the database. {"timestamp":"2023-05-25T07:39:27.438Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-25T07:55:13.687Z"}
+info: Connected to the database. {"timestamp":"2023-05-25T07:55:16.016Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-25T07:57:19.763Z"}
+info: Connected to the database. {"timestamp":"2023-05-25T07:57:21.999Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-25T07:58:28.001Z"}
+info: Connected to the database. {"timestamp":"2023-05-25T07:58:30.424Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-25T07:59:30.508Z"}
+info: Connected to the database. {"timestamp":"2023-05-25T07:59:32.812Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-25T08:02:18.931Z"}
+info: Connected to the database. {"timestamp":"2023-05-25T08:02:21.207Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-25T08:07:38.695Z"}
+info: Connected to the database. {"timestamp":"2023-05-25T08:07:41.535Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-25T08:25:00.965Z"}
+info: Connected to the database. {"timestamp":"2023-05-25T08:25:03.976Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-25T09:43:57.404Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-25T09:44:01.966Z"}
+info: Connected to the database. {"timestamp":"2023-05-25T09:44:04.793Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-25T09:46:05.045Z"}
+info: Connected to the database. {"timestamp":"2023-05-25T09:46:07.783Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-25T09:48:47.334Z"}
+info: Connected to the database. {"timestamp":"2023-05-25T09:48:50.678Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-25T09:49:07.432Z"}
+info: Connected to the database. {"timestamp":"2023-05-25T09:49:09.931Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-25T09:56:39.147Z"}
+info: Connected to the database. {"timestamp":"2023-05-25T09:56:41.495Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-25T09:59:23.266Z"}
+info: Connected to the database. {"timestamp":"2023-05-25T09:59:25.703Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Project\Backend\src\middlewares\/auth.middleware.js:14:23)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Project\Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Project\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Project\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Project\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Project\Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Project\Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Project\Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\Project\Backend\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\Project\Backend\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\Project\Backend\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\Project\Backend\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3) 
+    url - /api/v1/post/getPostById/6461fde65bc4471daccbad28 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-25T12:27:42.050Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Project\Backend\src\middlewares\/auth.middleware.js:14:23)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Project\Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Project\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Project\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Project\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Project\Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Project\Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Project\Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\Project\Backend\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\Project\Backend\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\Project\Backend\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\Project\Backend\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3) 
+    url - /api/v1/post/getPostById/6461fde65bc4471daccbad28 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-25T12:27:42.061Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Project\Backend\src\middlewares\/auth.middleware.js:14:23)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Project\Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Project\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Project\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Project\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Project\Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Project\Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Project\Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\Project\Backend\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\Project\Backend\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\Project\Backend\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\Project\Backend\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3) 
+    url - /api/v1/post/getPostById/6461fde65bc4471daccbad28 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-25T12:27:42.072Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Project\Backend\src\middlewares\/auth.middleware.js:14:23)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Project\Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Project\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Project\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Project\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Project\Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Project\Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Project\Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\Project\Backend\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\Project\Backend\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\Project\Backend\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\Project\Backend\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3) 
+    url - /api/v1/post/getPostById/6461fde65bc4471daccbad28 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-25T12:27:42.083Z"}

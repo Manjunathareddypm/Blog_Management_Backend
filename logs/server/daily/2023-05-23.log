@@ -1,0 +1,337 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T03:47:50.412Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T03:47:52.669Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T09:54:11.302Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T09:54:13.611Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T09:59:13.015Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T09:59:15.580Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:00:04.331Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:00:06.622Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:00:58.981Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:01:01.331Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:02:52.425Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:02:54.751Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:03:51.518Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:03:53.758Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:04:20.302Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:04:22.521Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:04:53.153Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:04:55.529Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:05:30.363Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:05:32.670Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:06:42.046Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:06:44.421Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:08:34.165Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:08:36.452Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Title" is required 
+    url - /api/v1/post/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-23T10:08:39.335Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:09:18.697Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:09:20.932Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:13:30.019Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:13:32.366Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:14:21.433Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:14:23.666Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:15:09.930Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:15:12.132Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:17:28.077Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:17:30.353Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:17:45.175Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:17:47.357Z"}
+error: 
+    status - 500 
+    message - TypeError: res.status is not a function
+    at _callee2$ (D:\Project\Backend\src\controllers\/post.controller.js:20:7)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-23T10:18:09.970Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:18:49.746Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:18:52.091Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:19:15.723Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:19:17.986Z"}
+error: 
+    status - 500 
+    message - TypeError: res.status is not a function
+    at _callee2$ (D:\Project\Backend\src\controllers\/post.controller.js:21:7)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-23T10:19:22.200Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:21:02.822Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:21:05.093Z"}
+error: 
+    status - 500 
+    message - TypeError: res.status is not a function
+    at _callee2$ (D:\Project\Backend\src\controllers\/post.controller.js:21:7)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-23T10:21:08.750Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:23:37.759Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:23:40.079Z"}
+error: 
+    status - 500 
+    message - TypeError: res.status is not a function
+    at _callee2$ (D:\Project\Backend\src\controllers\/post.controller.js:21:7)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-23T10:23:42.673Z"}
+error: 
+    status - 500 
+    message - TypeError: res.status is not a function
+    at _callee2$ (D:\Project\Backend\src\controllers\/post.controller.js:21:7)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-23T10:25:50.159Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:27:44.060Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:27:46.519Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:27:59.143Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:28:01.300Z"}
+error: 
+    status - 500 
+    message - TypeError: res.status is not a function
+    at _callee2$ (D:\Project\Backend\src\controllers\/post.controller.js:21:7)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-23T10:28:01.752Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:29:08.966Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:29:11.356Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:29:29.934Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:29:32.157Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:30:05.773Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:30:08.056Z"}
+error: 
+    status - 500 
+    message - TypeError: res.status is not a function
+    at _callee2$ (D:\Project\Backend\src\controllers\/post.controller.js:21:7)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/p 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-23T10:30:24.448Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:31:57.624Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:31:59.971Z"}
+error: 
+    status - 500 
+    message - TypeError: res.status is not a function
+    at _callee2$ (D:\Project\Backend\src\controllers\/post.controller.js:21:7)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/p 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-23T10:32:16.826Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:33:36.550Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:33:38.978Z"}
+error: 
+    status - 500 
+    message - TypeError: res.status is not a function
+    at _callee2$ (D:\Project\Backend\src\controllers\/post.controller.js:20:9)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/p 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-23T10:33:39.470Z"}
+error: 
+    status - 500 
+    message - TypeError: res.status is not a function
+    at _callee2$ (D:\Project\Backend\src\controllers\/post.controller.js:20:9)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/p 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-23T10:33:51.352Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:34:04.172Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:34:06.375Z"}
+error: 
+    status - 500 
+    message - TypeError: res.status is not a function
+    at _callee2$ (D:\Project\Backend\src\controllers\/post.controller.js:20:9)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/p 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-23T10:34:06.842Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:35:40.444Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:35:42.697Z"}
+error: 
+    status - 500 
+    message - TypeError: PostService.createPost is not a function
+    at _callee$ (D:\Project\Backend\src\controllers\/post.controller.js:19:36)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at createp (D:\Project\Backend\src\controllers\/post.controller.js:17:21)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at PostValidator (D:\Project\Backend\src\validators\/post.validator.js:18:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Project\Backend\src\middlewares\/auth.middleware.js:20:5)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-23T10:35:52.905Z"}
+error: 
+    status - 500 
+    message - TypeError: PostService.createPost is not a function
+    at _callee$ (D:\Project\Backend\src\controllers\/post.controller.js:19:36)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at createp (D:\Project\Backend\src\controllers\/post.controller.js:17:21)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at PostValidator (D:\Project\Backend\src\validators\/post.validator.js:18:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Project\Backend\src\middlewares\/auth.middleware.js:20:5)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-23T10:36:02.123Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:36:32.463Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:36:34.648Z"}
+error: 
+    status - 500 
+    message - TypeError: res.status is not a function
+    at _callee$ (D:\Project\Backend\src\controllers\/post.controller.js:20:9)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-23T10:36:35.117Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:37:52.852Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:37:55.166Z"}
+error: 
+    status - 500 
+    message - TypeError: res.status is not a function
+    at _callee$ (D:\Project\Backend\src\controllers\/post.controller.js:20:9)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-23T10:37:55.645Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:38:03.744Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:38:05.872Z"}
+error: 
+    status - 500 
+    message - TypeError: res.status is not a function
+    at _callee$ (D:\Project\Backend\src\controllers\/post.controller.js:20:9)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-23T10:38:19.696Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:39:42.703Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:39:45.100Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:43:09.935Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:43:12.288Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T10:43:49.056Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T10:43:51.443Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T12:04:09.755Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T12:04:12.344Z"}

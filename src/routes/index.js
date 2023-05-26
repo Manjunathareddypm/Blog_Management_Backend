@@ -3,13 +3,13 @@ const router = express.Router();
 
 import userRoute from './user.route';
 import postRoute from './post.route'
-const routes = () => {
-  router.get('/', (req, res) => {
-    res.json('Welcome');
-  });
-  router.use('/users', userRoute);
-  router.use('/post',postRoute)
 
+const routes = () => {
+  
+  router.use('/users', userRoute);
+
+  router.use('/post',postRoute);
+  
   return router;
 };
 

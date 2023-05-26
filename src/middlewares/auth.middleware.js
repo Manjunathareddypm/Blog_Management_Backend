@@ -4,7 +4,6 @@ import jwt from 'jsonwebtoken';
 export const userAuth = async (req, res, next) => {
   try {
     let bearerToken = req.header('Authorization');
-    console.log(bearerToken,'this is bearer Token');
     console.log("Req of auth----->", req.body);
     if (!bearerToken)
       throw {
@@ -16,6 +15,8 @@ export const userAuth = async (req, res, next) => {
     
     console.log("User",user,"-------->>>>");
     req.body.Email = user.email
+    // req.body.email = user.email
+    // userName = user.Id
     next();
   } catch (error) {
     next(error);
@@ -25,8 +26,7 @@ export const userAuth = async (req, res, next) => {
 export const userAuthForAuthor = async (req, res, next) => {
   try {
     let bearerToken = req.header('Authorization');
-    console.log(bearerToken,'this is bearer Token');
-    console.log("Req of auth----->", req.body );
+    console.log("Req of auth----->", req.body);
     if (!bearerToken)
       throw {
         code: HttpStatus.BAD_REQUEST,
@@ -34,8 +34,11 @@ export const userAuthForAuthor = async (req, res, next) => {
       };
     bearerToken = bearerToken.split(' ')[1];
      user = await jwt.verify(bearerToken, process.env.SECRET_KEY);
+    
     console.log("User",user,"-------->>>>");
+    // req.body.Email = user.email
     req.body.email = user.email
+    // userName = user.Id
     next();
   } catch (error) {
     next(error);

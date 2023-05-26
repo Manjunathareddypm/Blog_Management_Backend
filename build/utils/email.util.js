@@ -10,19 +10,19 @@ var _asyncToGenerator2 = _interopRequireDefault(require("@babel/runtime/helpers/
 var nodemailer = require('nodemailer');
 var _require = require('googleapis'),
   google = _require.google;
-var CLIENT_ID = '686659781703-9vp0jkmrnms8hhio4gs4hfl8a8s2508b.apps.googleusercontent.com';
-var CLIENT_SECRET = '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';
+var CLIENT_ID = '639717843604-ltq5f9p7c80e1p6420p57vd7t8jtfu8h.apps.googleusercontent.com';
+var CLIENT_SECRET = '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';
 var REDIRECT_URI = 'https://developers.google.com/oauthplayground';
-var REFRESH_TOKEN = '1//04n0FpOcjGXXPCgYIARAAGAQSNwF-L9Ir9dLzOF1nPnqUru99mm0As4rXfZN3ZVkFZdk3RQQYgNOjolGkSAumuvRWHwx-lgUaN6c';
+var REFRESH_TOKEN = '1//04DlDVOc9dp3bCgYIARAAGAQSNwF-L9IrZ8haq7F4WcEtkVoiK4O8ZvnyphrNvNnZ7LPOiGN4mMv3nccnRBZY8yr2aXKpi_q5fxs';
 var oAuth2Client = new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI);
 oAuth2Client.setCredentials({
   refresh_token: REFRESH_TOKEN
 });
-function sendEmail(_x, _x2, _x3) {
+function sendEmail(_x, _x2, _x3, _x4) {
   return _sendEmail.apply(this, arguments);
 }
 function _sendEmail() {
-  _sendEmail = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee(authorEmail, comment, commentAuthor) {
+  _sendEmail = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee(authorEmail, comment, commentAuthor, Title) {
     var accesstoken, transport, mailOptions, result;
     return _regenerator["default"].wrap(function _callee$(_context) {
       while (1) switch (_context.prev = _context.next) {
@@ -36,7 +36,7 @@ function _sendEmail() {
             service: 'gmail',
             auth: {
               type: 'OAuth2',
-              user: 'mreddypm@gmail.com',
+              user: 'prathameshvardam321@gmail.com',
               clientId: CLIENT_ID,
               clientSecret: CLIENT_SECRET,
               refreshToken: REFRESH_TOKEN,
@@ -46,9 +46,9 @@ function _sendEmail() {
           mailOptions = {
             from: "".concat(commentAuthor),
             to: authorEmail,
-            subject: "New comment added from ".concat(commentAuthor),
+            subject: "New comment added from ".concat(commentAuthor, " on Post ").concat(Title),
             text: 'Hellow from API',
-            html: "<h1>".concat(comment, "</h1>")
+            html: "<h3>".concat(comment, "</h3>")
           };
           _context.next = 8;
           return transport.sendMail(mailOptions);
