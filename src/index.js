@@ -1,20 +1,14 @@
 import dotenv from 'dotenv';
-dotenv.config();
-
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
-
 import routes from './routes';
 import database from './config/database';
-import {
-  appErrorHandler,
-  genericErrorHandler,
-  notFound
-} from './middlewares/error.middleware';
+import {appErrorHandler,genericErrorHandler,notFound} from './middlewares/error.middleware';
 import logger, { logStream } from './config/logger';
-
 import morgan from 'morgan';
+
+dotenv.config();
 
 const app = express();
 const host = process.env.APP_HOST;
@@ -28,11 +22,11 @@ app.use(express.json());
 app.use(morgan('combined', { stream: logStream }));
 
 database();
-
 app.use(`/api/${api_version}`, routes());
 app.use(appErrorHandler);
 app.use(genericErrorHandler);
 app.use(notFound);
+
 
 app.listen(port, () => {
   logger.info(`Server started at ${host}:${port}/api/${api_version}/`);

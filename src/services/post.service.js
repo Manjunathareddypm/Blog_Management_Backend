@@ -1,15 +1,14 @@
 import postModel from '../models/post.model';
-import { user } from '../middlewares/auth.middleware';
-import { log } from 'winston';
 import replycommentModel from '../models/replycomment.model';
 import finalcommentModel from '../models/finalcomment.model';
 import { sendEmail } from '../utils/email.util';
 
 export const createPost = async (body) => {
-    console.log(body,"Body");
     const data = await postModel.create(body)
     return data
 }
+
+
 
 export const getAllPost = async () => {
     const data = await postModel.find()
@@ -22,18 +21,13 @@ export const updatePost = async (_id, body) => {
 }
 
 export const likePost = async (id, email) => {
-
-
     const data = await postModel.findById(id)
-
     const { Likes } = data
     let data1
-
     if (await Likes.includes(email)) {
         data1 = await postModel.findByIdAndUpdate({ "_id": id },
             {
                 $pull: { Likes: email },
-
             },
             { new: true })
         data1 = await postModel.findByIdAndUpdate({ "_id": id },
@@ -43,7 +37,6 @@ export const likePost = async (id, email) => {
         data1 = await postModel.findByIdAndUpdate({ "_id": id },
             {
                 $push: { Likes: email },
-
             },
             { new: true })
         data1 = await postModel.findByIdAndUpdate({ "_id": id },
@@ -65,8 +58,6 @@ export const viewPost = async (id, Email) => {
     const data = await postModel.findOne({ "_id": id })
     let data1
     if (data.Views.includes(Email)) {
-
-        console.log("Alreedy");
         return data
     }
     else {
@@ -91,34 +82,14 @@ export const findMyLikedPost = async (email) => {
 }
 
 export const findMyPost = async (email) => {
-    const allPost = await postModel.find({
-        Email:email
-    })
-   // const myPost = allPost.filter((x) => x.Email == email)
-    return allPost
+    const allPost = await postModel.find()
+    const myPost = allPost.filter((x) => x.Email == email)
+    return myPost
 }
 
 export const getPostById = async (req) => {
     const post = await postModel.find({ "_id": req.params.id })
     return post
-}
-
-export const findPostByText = async (searchText) => {
-    const data = await postModel.find({
-        $or: [
-            {
-                Title: { $regex: searchText, $options: 'i' }
-            },
-            {
-                Description: { $regex: searchText, $options: 'i' }
-            },
-            {
-                Email: { $regex: searchText, $options: 'i' }
-            }
-        ]
-    })
-    return data
-
 }
 
 export const arrangeByLikesSortHighToLow = async () => {
@@ -195,9 +166,9 @@ export const likeCommentPost = async (id, email) => {
 };
 
 
-export const likeReplyOfComment = async(id,email) =>{
+export const likeReplyOfComment = async (id, email) => {
     const data = await replycommentModel.findById(id)
-    const { Likes }  = data;
+    const { Likes } = data;
     console.log(Likes);
     let data1;
     if (await Likes.includes(email)) {
@@ -243,9 +214,8 @@ export const deleteComment = async (req) => {
     return deletedComment
 }
 //authorEmail,comment,commentAuthor
-export const sendEmailFromComment = async (authorEmail, Comment, commentAuthor) => {
-
-    const data = await sendEmail(authorEmail, Comment, commentAuthor)
+export const sendEmailFromComment = async (authorEmail, Comment, commentAuthor, Title) => {
+    const data = await sendEmail(authorEmail, Comment, commentAuthor, Title)
     return data
 }
 
@@ -269,13 +239,13 @@ export const getReplyToIndividual = async (id) => {
     return data
 }
 
-export const getParticularComment = async(id) =>{
-const data = await finalcommentModel.find({"_id":id})
-return data
+export const getParticularComment = async (id) => {
+    const data = await finalcommentModel.find({ "_id": id })
+    return data
 }
 
-export const getParticularReplyComment = async(id) =>{
-    const data = await replycommentModel.find({"_id":id})
-    return data 
+export const getParticularReplyComment = async (id) => {
+    const data = await replycommentModel.find({ "_id": id })
+    return data
 }
 

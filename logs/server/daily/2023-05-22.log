@@ -1,0 +1,104 @@
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2023-05-22T04:42:31.406Z"}
+info: Connected to the database. {"timestamp":"2023-05-22T04:42:33.731Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-22T04:43:56.473Z"}
+info: Connected to the database. {"timestamp":"2023-05-22T04:43:58.725Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (D:\Project\Backend\src\services\/user.service.js:25:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-22T05:35:39.904Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-22T06:11:43.682Z"}
+info: Connected to the database. {"timestamp":"2023-05-22T06:11:46.101Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullName" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-22T06:26:32.250Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-22T06:36:50.356Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullName" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-22T06:36:50.603Z"}
+info: Connected to the database. {"timestamp":"2023-05-22T06:36:52.756Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullName" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-22T06:37:24.977Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullName" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-22T06:37:33.045Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullName" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-22T06:37:39.230Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-22T06:39:37.026Z"}
+info: Connected to the database. {"timestamp":"2023-05-22T06:39:39.380Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (D:\Project\Backend\src\services\/user.service.js:22:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-22T06:39:47.110Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-22T06:46:26.416Z"}
+info: Connected to the database. {"timestamp":"2023-05-22T06:46:28.651Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-22T06:47:40.440Z"}
+info: Connected to the database. {"timestamp":"2023-05-22T06:47:42.768Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-22T08:35:55.040Z"}
+info: Connected to the database. {"timestamp":"2023-05-22T08:35:57.400Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-22T08:53:06.204Z"}
+info: Connected to the database. {"timestamp":"2023-05-22T08:53:08.375Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-22T08:53:18.077Z"}
+info: Connected to the database. {"timestamp":"2023-05-22T08:53:20.210Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-22T12:20:27.827Z"}
+info: Connected to the database. {"timestamp":"2023-05-22T12:20:30.172Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-22T12:21:37.533Z"}
+info: Connected to the database. {"timestamp":"2023-05-22T12:21:39.860Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-22T12:22:22.594Z"}
+info: Connected to the database. {"timestamp":"2023-05-22T12:22:25.474Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-22T12:33:00.038Z"}
+info: Connected to the database. {"timestamp":"2023-05-22T12:33:02.306Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-22T12:33:46.211Z"}
+info: Connected to the database. {"timestamp":"2023-05-22T12:33:48.456Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-22T12:34:04.344Z"}
+info: Connected to the database. {"timestamp":"2023-05-22T12:34:06.644Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-22T12:35:05.195Z"}
+info: Connected to the database. {"timestamp":"2023-05-22T12:35:07.469Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Title" is required 
+    url - /api/v1/post/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-22T12:43:54.191Z"}

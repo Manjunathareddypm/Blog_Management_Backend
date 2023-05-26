@@ -1,12 +1,12 @@
 import express from 'express';
 import * as postController from '../controllers/post.controller';
 import { userAuth } from '../middlewares/auth.middleware';
-import * as ImageController from '../controllers/image.controller'
 import { PostValidator } from '../validators/post.validator';
 
 const router = express.Router();
 
-router.post('/', PostValidator, userAuth, postController.createPost)
+router.post('/', userAuth, PostValidator, postController.createPost)
+
 
 router.get("/", postController.getAllPost)
 
@@ -22,11 +22,9 @@ router.post('/:id/viewPost/:Email', postController.viewPost)
 
 router.get('/findMyLikedPost/:id', postController.findMyLikedPost)
 
-router.get('/findMyPost/:email', postController.findMyPost)
+router.get('/findMyPost/:id', postController.findMyPost)
 
 router.get('/getPostById/:id', userAuth, postController.getPostById)
-
-router.get('/getAllPost/:searchText', userAuth, postController.findPostByText)
 
 router.get('/arrangeByLikesSortHighToLow',postController.arrangeByLikesSortHighToLow)
 
@@ -44,7 +42,7 @@ router.get('/comment/:id', postController.findAllComment)
 
 router.delete('/comment/:id', postController.deleteComment)
 
-router.post("/sendEmail/:authorEmail/:commentAuthor",postController.senMailForComment)
+router.post("/sendEmail/:authorEmail/:commentAuthor/:Title",postController.senMailForComment)
 
 router.post("/replyComment/:author/:commentId/:blogId",postController.replyToComment)
 
@@ -58,10 +56,6 @@ router.get("/getReplyToNumber/:id",postController.getReplyCommentNumber)
 
 router.get("/getParticularComment/:id",postController.getParticularComment)
 
-router.get("/getParticularComment/:id",postController.getParticularComment)
-
 router.get("/getParticularReplyComment/:id",postController.getParticularReplyComment)
-
-
 
 export default router;

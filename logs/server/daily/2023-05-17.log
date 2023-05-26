@@ -1,2 +1,1123 @@
 info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-05-17T04:27:24.258Z"}
 info: Connected to the database. {"timestamp":"2023-05-17T04:27:26.709Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (D:\Project\Backend\src\services\/user.service.js:22:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T05:05:25.863Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T05:32:13.085Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-05-17T05:51:26.922Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T05:51:29.432Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (D:\Project\Backend\src\services\/user.service.js:22:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T05:55:43.846Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (D:\Project\Backend\src\services\/user.service.js:22:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T05:56:41.137Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-05-17T06:40:41.365Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T06:40:43.758Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-05-17T06:43:33.333Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T06:43:35.796Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-05-17T06:46:34.570Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T06:46:36.939Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-05-17T06:47:50.536Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T06:47:52.867Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T06:54:13.321Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T06:55:32.595Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T06:56:43.872Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T06:56:46.089Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (D:\Project\Backend\src\services\/user.service.js:22:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T06:58:38.303Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (D:\Project\Backend\src\services\/user.service.js:22:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T07:00:43.778Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T07:05:32.243Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:05:34.649Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T07:05:40.597Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:05:42.986Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (D:\Project\Backend\src\utils\/user.util.js:17:15)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkEmail (D:\Project\Backend\src\utils\/user.util.js:5:24)
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:20:22)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T07:05:50.563Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (D:\Project\Backend\src\utils\/user.util.js:17:15)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkEmail (D:\Project\Backend\src\utils\/user.util.js:5:24)
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:20:22)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T07:07:10.401Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (D:\Project\Backend\src\utils\/user.util.js:17:15)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkEmail (D:\Project\Backend\src\utils\/user.util.js:5:24)
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:20:22)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T07:08:05.002Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (D:\Project\Backend\src\utils\/user.util.js:17:15)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkEmail (D:\Project\Backend\src\utils\/user.util.js:5:24)
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:20:22)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T07:13:18.949Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (D:\Project\Backend\src\utils\/user.util.js:17:15)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkEmail (D:\Project\Backend\src\utils\/user.util.js:5:24)
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:20:22)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T07:13:30.874Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (D:\Project\Backend\src\utils\/user.util.js:17:15)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkEmail (D:\Project\Backend\src\utils\/user.util.js:5:24)
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:20:22)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T07:13:54.939Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (D:\Project\Backend\src\utils\/user.util.js:17:15)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkEmail (D:\Project\Backend\src\utils\/user.util.js:5:24)
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:20:22)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T07:14:10.476Z"}
+error: 
+    status - 500 
+    message - Error: Wrong credentials
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:35:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T07:17:30.636Z"}
+error: 
+    status - 500 
+    message - Error: Wrong credentials
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:35:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T07:18:14.689Z"}
+error: 
+    status - 500 
+    message - Error: Wrong credentials
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:35:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T07:21:06.824Z"}
+error: 
+    status - 500 
+    message - Error: Wrong credentials
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:35:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T07:22:01.868Z"}
+error: 
+    status - 500 
+    message - Error: Wrong credentials
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:35:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T07:23:17.078Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (D:\Project\Backend\src\utils\/user.util.js:17:15)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkEmail (D:\Project\Backend\src\utils\/user.util.js:5:24)
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:20:22)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T08:36:42.311Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T08:37:16.724Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T08:37:19.724Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T08:37:22.809Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T08:40:27.359Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T08:40:30.208Z"}
+error: Email already registered {"timestamp":"2023-05-17T08:40:34.408Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T08:41:24.729Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T08:41:27.446Z"}
+error: Email already registered {"timestamp":"2023-05-17T08:41:41.897Z"}
+error: Email already registered {"timestamp":"2023-05-17T08:42:05.847Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T08:42:48.640Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T08:42:52.077Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T08:42:54.897Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:16:35)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.register (D:\Project\Backend\src\services\/user.service.js:15:22)
+    at _callee3$ (D:\Project\Backend\src\controllers\/user.controller.js:34:36)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at register (D:\Project\Backend\src\controllers\/user.controller.js:32:22)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (D:\Project\Backend\src\validators\/user.validator.js:14:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Project\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Project\Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Project\Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Project\Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Project\Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Project\Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T08:43:16.843Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T08:44:05.760Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T08:44:08.725Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:16:35)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.register (D:\Project\Backend\src\services\/user.service.js:15:22)
+    at _callee3$ (D:\Project\Backend\src\controllers\/user.controller.js:34:36)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at register (D:\Project\Backend\src\controllers\/user.controller.js:32:22)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (D:\Project\Backend\src\validators\/user.validator.js:14:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Project\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Project\Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Project\Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Project\Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Project\Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Project\Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T08:44:12.970Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:16:35)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.register (D:\Project\Backend\src\services\/user.service.js:15:22)
+    at _callee3$ (D:\Project\Backend\src\controllers\/user.controller.js:34:36)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at register (D:\Project\Backend\src\controllers\/user.controller.js:32:22)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (D:\Project\Backend\src\validators\/user.validator.js:14:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Project\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Project\Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Project\Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Project\Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Project\Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Project\Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T08:44:26.185Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T08:44:54.134Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T08:44:57.060Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:16:35)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.register (D:\Project\Backend\src\services\/user.service.js:15:22)
+    at _callee3$ (D:\Project\Backend\src\controllers\/user.controller.js:34:36)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at register (D:\Project\Backend\src\controllers\/user.controller.js:32:22)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (D:\Project\Backend\src\validators\/user.validator.js:14:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Project\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Project\Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Project\Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Project\Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Project\Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Project\Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T08:45:03.670Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:16:35)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.register (D:\Project\Backend\src\services\/user.service.js:15:22)
+    at _callee3$ (D:\Project\Backend\src\controllers\/user.controller.js:34:36)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at register (D:\Project\Backend\src\controllers\/user.controller.js:32:22)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (D:\Project\Backend\src\validators\/user.validator.js:14:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Project\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Project\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Project\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Project\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Project\Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Project\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Project\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Project\Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Project\Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Project\Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Project\Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T08:45:10.167Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T08:45:47.739Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T08:45:50.621Z"}
+error: Email already registered {"timestamp":"2023-05-17T08:45:52.985Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T08:46:18.850Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T08:46:21.953Z"}
+error: Email already registered {"timestamp":"2023-05-17T08:46:36.609Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T08:47:09.531Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T08:47:12.231Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:28:15)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T08:47:49.950Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:35:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T08:49:49.414Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:35:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T08:50:08.766Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:35:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T08:53:08.480Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:35:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T08:54:01.295Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:35:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T08:57:19.057Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:35:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T08:57:40.049Z"}
+error: 
+    status - 500 
+    message - Error: Wrong credentials
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:41:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T08:58:02.942Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:28:15)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T09:23:49.232Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee2$ (D:\Project\Backend\src\services\/user.service.js:28:15)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T10:41:29.866Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:35:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T10:42:16.866Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:35:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T10:42:30.196Z"}
+error: 
+    status - 500 
+    message - Error: Wrong credentials
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:41:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T10:47:08.970Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T10:51:30.728Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T10:51:33.476Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T10:53:31.847Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T10:53:34.561Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T10:57:11.398Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T10:57:14.013Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T11:00:37.700Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T11:00:40.755Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:36:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T11:02:04.325Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:36:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T11:02:13.620Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T11:03:20.742Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T11:03:23.675Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:34:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T11:03:28.695Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T11:04:04.040Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T11:04:06.787Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:34:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T11:04:09.246Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T11:05:10.993Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T11:05:13.861Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:34:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T11:05:28.358Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T11:05:54.510Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T11:05:57.184Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:35:54)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T11:06:03.018Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T11:07:11.235Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T11:07:14.214Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T11:07:56.381Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T11:07:59.234Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T11:08:59.283Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T11:09:02.227Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T11:10:02.580Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T11:10:05.603Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T11:12:15.965Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T11:12:18.965Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T11:13:20.003Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T11:13:23.033Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T11:14:01.270Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T11:14:04.092Z"}
+error: 
+    status - 500 
+    message - Error: Wrong credentials
+    at _callee3$ (D:\Project\Backend\src\services\/user.service.js:40:13)
+    at tryCatch (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Project\Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Project\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T11:14:06.407Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T11:15:33.930Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T11:15:36.872Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T11:16:05.672Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T11:16:08.511Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T11:17:25.629Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T11:17:28.485Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":id" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/:id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-17T12:31:23.654Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":id" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/:id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-17T12:31:23.670Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":id" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/:id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-17T12:31:23.685Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":id" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/:id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-17T12:31:23.698Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":id" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/:id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-17T12:33:43.019Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":id" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/:id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-17T12:33:43.034Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":id" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/:id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-17T12:33:43.050Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":id" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/:id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-17T12:33:43.064Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":id" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/:id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-17T12:34:03.260Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":id" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/:id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-17T12:34:03.273Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":id" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/:id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-17T12:34:03.290Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":id" (type string) at path "_id" for model "UsersBlogManagementPost"
+    at model.Query.exec (D:\Project\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Project\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/post/getPostById/:id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-17T12:34:03.302Z"}
+info: Server started at http://localhost:1221/api/v1/ {"timestamp":"2023-05-17T12:36:09.731Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T12:36:12.974Z"}

@@ -1,0 +1,11 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-26T04:10:19.301Z"}
+info: Connected to the database. {"timestamp":"2023-05-26T04:10:21.759Z"}
+info: Server started at http://localhost:4000/api/0.1.0/ {"timestamp":"2023-05-26T04:13:12.908Z"}
+info: Connected to the database. {"timestamp":"2023-05-26T04:13:15.255Z"}
+info: Server started at http://localhost:4000/api/0.1.0/ {"timestamp":"2023-05-26T04:13:58.586Z"}
+info: Connected to the database. {"timestamp":"2023-05-26T04:14:00.753Z"}
+info: Server started at http://localhost:4000/api/0.1.0/ {"timestamp":"2023-05-26T04:19:38.908Z"}
+info: Connected to the database. {"timestamp":"2023-05-26T04:19:41.186Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-26T04:20:33.844Z"}
+info: Connected to the database. {"timestamp":"2023-05-26T04:20:36.070Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-26T05:17:48.020Z"}

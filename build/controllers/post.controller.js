@@ -286,7 +286,7 @@ var findMyPost = /*#__PURE__*/function () {
         case 0:
           _context9.prev = 0;
           _context9.next = 3;
-          return PostService.findMyPost(req.params.email);
+          return PostService.findMyPost(req.params.id);
         case 3:
           data = _context9.sent;
           res.status(_httpStatusCodes["default"].OK).json({
@@ -602,7 +602,7 @@ var senMailForComment = /*#__PURE__*/function () {
         case 0:
           _context19.prev = 0;
           _context19.next = 3;
-          return PostService.sendEmailFromComment(req.params.authorEmail, req.body.Comment, req.params.commentAuthor);
+          return PostService.sendEmailFromComment(req.params.authorEmail, req.body.Comment, req.params.commentAuthor, req.params.Title);
         case 3:
           data = _context19.sent;
           res.status(_httpStatusCodes["default"].OK).json({

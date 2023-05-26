@@ -290,18 +290,19 @@ var findMyLikedPost = /*#__PURE__*/function () {
 exports.findMyLikedPost = findMyLikedPost;
 var findMyPost = /*#__PURE__*/function () {
   var _ref9 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee9(email) {
-    var allPost;
+    var allPost, myPost;
     return _regenerator["default"].wrap(function _callee9$(_context9) {
       while (1) switch (_context9.prev = _context9.next) {
         case 0:
           _context9.next = 2;
-          return _post["default"].find({
-            Email: email
-          });
+          return _post["default"].find();
         case 2:
           allPost = _context9.sent;
-          return _context9.abrupt("return", allPost);
-        case 4:
+          myPost = allPost.filter(function (x) {
+            return x.Email == email;
+          });
+          return _context9.abrupt("return", myPost);
+        case 5:
         case "end":
           return _context9.stop();
       }
@@ -685,13 +686,13 @@ var deleteComment = /*#__PURE__*/function () {
 //authorEmail,comment,commentAuthor
 exports.deleteComment = deleteComment;
 var sendEmailFromComment = /*#__PURE__*/function () {
-  var _ref20 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee20(authorEmail, Comment, commentAuthor) {
+  var _ref20 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee20(authorEmail, Comment, commentAuthor, Title) {
     var data;
     return _regenerator["default"].wrap(function _callee20$(_context20) {
       while (1) switch (_context20.prev = _context20.next) {
         case 0:
           _context20.next = 2;
-          return (0, _email.sendEmail)(authorEmail, Comment, commentAuthor);
+          return (0, _email.sendEmail)(authorEmail, Comment, commentAuthor, Title);
         case 2:
           data = _context20.sent;
           return _context20.abrupt("return", data);
@@ -701,7 +702,7 @@ var sendEmailFromComment = /*#__PURE__*/function () {
       }
     }, _callee20);
   }));
-  return function sendEmailFromComment(_x27, _x28, _x29) {
+  return function sendEmailFromComment(_x27, _x28, _x29, _x30) {
     return _ref20.apply(this, arguments);
   };
 }();
@@ -747,7 +748,7 @@ var deleteReplyComment = /*#__PURE__*/function () {
       }
     }, _callee22);
   }));
-  return function deleteReplyComment(_x30) {
+  return function deleteReplyComment(_x31) {
     return _ref22.apply(this, arguments);
   };
 }();
@@ -771,7 +772,7 @@ var getReplyCommentNumber = /*#__PURE__*/function () {
       }
     }, _callee23);
   }));
-  return function getReplyCommentNumber(_x31) {
+  return function getReplyCommentNumber(_x32) {
     return _ref23.apply(this, arguments);
   };
 }();
@@ -795,7 +796,7 @@ var getReplyToIndividual = /*#__PURE__*/function () {
       }
     }, _callee24);
   }));
-  return function getReplyToIndividual(_x32) {
+  return function getReplyToIndividual(_x33) {
     return _ref24.apply(this, arguments);
   };
 }();
@@ -819,7 +820,7 @@ var getParticularComment = /*#__PURE__*/function () {
       }
     }, _callee25);
   }));
-  return function getParticularComment(_x33) {
+  return function getParticularComment(_x34) {
     return _ref25.apply(this, arguments);
   };
 }();
@@ -843,7 +844,7 @@ var getParticularReplyComment = /*#__PURE__*/function () {
       }
     }, _callee26);
   }));
-  return function getParticularReplyComment(_x34) {
+  return function getParticularReplyComment(_x35) {
     return _ref26.apply(this, arguments);
   };
 }();

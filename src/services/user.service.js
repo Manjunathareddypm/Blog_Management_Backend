@@ -1,15 +1,12 @@
 import User from '../models/user.model';
+import HttpStatus from 'http-status-codes';
+
 import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'
-import { sendEmail } from '../utils/email.util';
-import logger, { logStream } from '../config/logger';
-import finalcomment from '../models/finalcomment.model';
 
 export const register = async (body) => {
-  console.log("Hey Jeth");
   const {  email, password,fullName } = body
     const data = await User.findOne({ email })
-    console.log(data, );
     if (data === null) {
       const hashedPassword = await bcrypt.hash(password, 10)
       const data = await User.create({
@@ -23,24 +20,31 @@ export const register = async (body) => {
   }
 }
 
-export const getAllUsers = async () => {
-  const data = await User.find();
-  return data;
-};
+
 
 export const login = async (body) => {
-  const { email, password } = body
+  console.log(body.email,body.password);
+  const email =  await body.email
+  const password = await body.password
   const data = await User.findOne({ email })
-  const result = await bcrypt.compare(password, data.password)
+  
+  console.log(email,password);
   if (data) {
+    const result = await bcrypt.compare(password, data.password)
     if (result) {
       const token = await jwt.sign({ Id: data._id, email: data.email }, process.env.SECRET_KEY)
       return token;
     } else {
-      throw new Error('Wrong credentials')
+      throw new Error('Invalid Password')
     }
   } else {
-    throw new Error("Details not found")
+    throw new Error("Email not registered")
   }
+
 }
 
+
+export const getAllUsers = async () => {
+  const data = await User.find();
+  return data;
+};

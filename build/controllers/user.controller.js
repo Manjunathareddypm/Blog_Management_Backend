@@ -132,7 +132,11 @@ var login = /*#__PURE__*/function () {
         case 7:
           _context4.prev = 7;
           _context4.t0 = _context4["catch"](0);
-          next(_context4.t0);
+          res.status(_httpStatusCodes["default"].BAD_REQUEST).json({
+            code: _httpStatusCodes["default"].BAD_REQUEST,
+            data: '',
+            message: 'Wrong credentials'
+          });
         case 10:
         case "end":
           return _context4.stop();
